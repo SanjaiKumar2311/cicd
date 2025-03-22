@@ -27,7 +27,6 @@ This repository contains the implementation of a CI/CD pipeline using AWS servic
   - CodeCommit
   - CodeBuild
   - CodeDeploy
-  - S3
 - AWS CLI installed and configured.
 - Docker installed on your local machine or build server.
 - An EC2 instance with the CodeDeploy agent installed and configured.
@@ -47,7 +46,6 @@ This repository contains the implementation of a CI/CD pipeline using AWS servic
     - Ensure the `appspec.yml` file has the correct configuration for CodeDeploy.
 
 3. **Create the Required AWS Resources**:
-    - Set up an S3 bucket to store build artifacts.
     - Create a CodeCommit repository and push your code.
     - Configure a CodeDeploy application and deployment group.
     - Define a CodeBuild project for building and testing the application.
