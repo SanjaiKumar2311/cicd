@@ -16,8 +16,6 @@ This repository contains the implementation of a CI/CD pipeline using AWS servic
 - **AWS CodeCommit**: Source repository for version control.
 - **AWS CodeBuild**: Builds and tests the application.
 - **AWS CodeDeploy**: Deploys the application to Amazon EC2 instances.
-- **Amazon S3**: Used to store build artifacts.
-- **AWS CloudWatch**: Monitors logs and metrics for the pipeline and deployed application.
 - **IAM**: Manages permissions and roles for the pipeline and associated resources.
 
 ## Setup and Configuration
